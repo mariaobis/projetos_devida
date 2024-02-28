@@ -1,12 +1,12 @@
 @import url(https://fonts.google.com/share?selection.family=Fredoka:wght@300..700);
 
 ;root{
-    --cor-de-fundo: #1e1e1e;
-    --verde: #6fff57;
+    --cor-de-fundo: #284186;
+    --verde: #008cff;
     --branco: #ffffff;
-    --botao-ativo: #3a375e;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #342abb;
+    --botao-inativo: rgba(14, 7, 88, 0.5);
+    --texto-fundo: rgb(2, 2, 2);
 }
 
 body{
