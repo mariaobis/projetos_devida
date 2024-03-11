@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--cONTEUDO PRINCIPAL-->
         <section class="conteudo principal">
             <h2 class="tiulo-principal">Meus Objetivos do Ano_</h2>
         <div class="div-conteudp">
@@ -16,10 +17,12 @@
                 <button class="botao">Criar um portifolio</button>
                 <button class="botao">Atualizar meu curriculo</button>
             </div>
+            <!---->
             <div class="abas-textos">
                 <div class="aba-conteudo ativo">
                     <h3 class="aba-conteudo-titulo-prinipal">Ler livros sobre conhecimentos abrangentes</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                    <!---->
                     <div class="contador">
                         <div class="contador-digito">
                             <p class="contador-digito-numero" id="dias0"></p>
@@ -32,7 +35,18 @@
                             </div>
                         </div>
                         <div class="contador">
-                            <div class="contador-digito">
+                            for(let i=0;i <botoes.length;i++){
+                                botoes[i].onclick = function(){
+                            
+                                    for(let j=0,j<botoes.length;j++){
+                                        botoes[j].classList.remove("ativo");
+                                    }
+                            
+                                    botoes[i].classList.add("ativo");
+                                    textos[i].classList.add("ativo");
+                                }
+                                console.log();
+                            }<div class="contador-digito">
                                 <p class="contador-digito-numero" id="min0"></p>
                                 <p class="contador-digito-texto">min</p>
                             </div>
@@ -87,7 +101,18 @@
                                 <p class="contador-digito-texto">horas</p>
                             </div>
                         </div>
-                        <div class="contador">
+                        <divfor(let i=0;i <botoes.length;i++){
+                            botoes[i].onclick = function(){
+                        
+                                for(let j=0,j<botoes.length;j++){
+                                    botoes[j].classList.remove("ativo");
+                                }
+                        
+                                botoes[i].classList.add("ativo");
+                                textos[i].classList.add("ativo");
+                            }
+                            console.log();
+                        } class="contador">
                             <div class="contador-digito">
                                 <p class="contador-digito-numero" id="min2"></p>
                                 <p class="contador-digito-texto">min</p>
